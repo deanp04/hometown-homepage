@@ -8,6 +8,10 @@ DARK BLUE: #1D3557
 
 */
 
+* {
+    border: 1px solid black;
+}
+
 body {
     margin: 0;
     text-align: center;
