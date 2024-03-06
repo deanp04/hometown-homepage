@@ -9,7 +9,6 @@ DARK BLUE: #1D3557
 */
 
 * {
-    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -31,6 +30,26 @@ img {
     background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWxkanRzbXl6MWM1em1iNDV5MjZjdWVpcm9xMWR1eGJmcDcwaXk0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iY9hoi6V3IIBBJDJbf/giphy.gif");
     background-size: cover;
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: slategray;
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+
+.hero-header {
+    font-size: 4rem;
+    background: lightblue;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.hero-subheader {
+    font-size: 1.2rem;
+    background: lightblue;
+    padding: 8px 16px;
+    border-radius: 5px;
 }
 
 /* ACTIVITES SECTION */
